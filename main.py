@@ -28,5 +28,5 @@ with open('result.csv', 'w',encoding='utf-8') as f:
     f.write(f"Все фамилии:{surname}\n")
     f.write(f"Любимые цвета:{favorite_color}\n")
     f.write(f"Средний возраст:{average_value}\n")
-    f.write(f"Самый популярный цвет:{best_color} встертился {counts[best_color]} раз\n")
+    f.write(f"Самый популярный цвет:{best_color} встретился {counts[best_color]} раз\n")
     f.write(f"Самый молодой участник:{youngest}\n")
